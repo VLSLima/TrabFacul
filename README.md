@@ -62,3 +62,9 @@ O código é dividido em funções para facilitar a modularidade:
 ## **Desenvolvido por**
 
 * Vitor Lima - RA: 202401123854 *
+
+
+
+## *Explicações**
+
+Criei esse projeto em uma tarde, e devido ao pouco tempo disponivel, utilizei o *Gemini* para me auxiliar a melorar alguns pontos do projeto. Espero que curta!
