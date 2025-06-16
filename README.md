@@ -1,18 +1,18 @@
 # Jogo Batalha Naval em C
 
-Este repositório contém a implementação de um jogo de Batalha Naval simples, desenvolvido em linguagem C, como sendo parte de um dos trabalos da disciplina de Introdução à Programação de Computadores.
+ Trabalho da matéria - Introdução a programação de computadores: Jogo de batalha naval em C 
 
 ---
 
-## **Funcionalidades Implementadas**
+## Funcionalidades Implementadas:
 
-* **Tabuleiros Dinâmicos:** Utiliza matrizes para representar os tabuleiros do jogador e do computador.
-* **Posicionamento Aleatório de Navios:** Os navios são posicionados em locais aleatórios no tabuleiro.
-* **Turnos de Ataque:** Jogo por turnos, onde o jogador e o computador se revezam para atacar.
-* **Detecção de Acertos e Erros:** Feedback visual claro para acertos ('X') e erros ('O').
-* **Contagem de Navios:** Acompanhamento dos navios restantes para determinar o vencedor.
-* **Validação de Entrada:** Tratamento de entrada inválida do usuário.
-* **Habilidade Especial: Ataque Aéreo (Bomba 3x3):** O jogador tem a opção de usar uma vez por partida uma habilidade que atinge uma área de 3x3 células.
+* Pra criar tabuleiros dinâmicos, utilizei matrizes para representar os tabuleiros do jogador e do computador.
+* Posicionei os navios em locais aleatórios no tabuleiro.
+* Jogo por turnos, onde o jogador e o computador se revezam para atacar.
+* Detecção de Acertos e Erros: Feedback visual claro para acertos ('X') e erros ('O').
+* Contagem de Navios: Acompanhamento dos navios restantes para determinar o vencedor.
+* Validação de Entrada: Tratamento de entrada inválida do usuário.
+* Desenvolvi um ataque especial: O jogador tem a opção de usar uma vez por partida uma habilidade que atinge uma área de 3x3 células.
 
 ---
 
@@ -25,15 +25,12 @@ Para compilar e executar este jogo, você precisará de um compilador C (como GC
     git clone [https://github.com/VLSLima/TrabFacul/blob/main/batalhaNaval.c](https://github.com/SeuUsuario/SeuRepositorioBatalhaNaval.git)
     cd SeuRepositorioBatalhaNaval
     ```
-    (Substitua `SeuUsuario/SeuRepositorioBatalhaNaval.git` pelo link real do seu repositório).
 
 2.  **Compile o Código:**
     Navegue até a pasta onde está o arquivo `batalhaNaval.c`.
     ```bash
     gcc batalhaNaval.c -o batalhaNaval -std=c99
     ```
-    *`batalhaNaval.c`*: Substitua pelo nome do seu arquivo `.c`.
-    *`-o batalha_naval`*: Define o nome do executável gerado (você pode escolher outro nome).
     *`-std=c99`*: Garante a compatibilidade com funcionalidades do C99 (como `stdbool.h`).
 
 3.  **Execute o Jogo:**
@@ -45,7 +42,7 @@ Para compilar e executar este jogo, você precisará de um compilador C (como GC
 
 ## **Estrutura do Código**
 
-O código é dividido em funções para facilitar a modularidade:
+Código dividido em funções:
 
 * `inicializarTabuleiro()`: Preenche o tabuleiro com água.
 * `mostrarTabuleiro()`: Exibe o estado atual do tabuleiro.
@@ -67,4 +64,4 @@ O código é dividido em funções para facilitar a modularidade:
 
 ## **Explicações**
 
-Criei esse projeto em uma tarde, e devido ao pouco tempo disponivel, utilizei o *Gemini* para me auxiliar a melorar alguns pontos do projeto. Espero que curta!
+Foi utilizado o *Gemini* para me auxiliar a melhorar alguns pontos do projeto. Espero que curta!
